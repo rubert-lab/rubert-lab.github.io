@@ -1,0 +1,128 @@
+/*MOBILE FIRST VIEW */
+
+
+
+
+body {
+background-color: white;
+
+
+}
+
+h2 {
+	display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+aside {
+	background: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 300%;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+}
+
+
+aside a:link {
+	color: #C7EDE4;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+/*Style the links visited in the aside section */
+aside a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/*Change the color of aside links on hover */
+aside a:hover {
+	background-color: black;
+	color: white;
+}
+
+/*Change the color of aside links on focus */
+aside a:focus {
+	background-color: black;
+	color: white;
+	outline: none;
+}
+
+
+article  {
+	background-color: #EBEBEB;
+	color: black;
+	font-family: 'Anton', sans-serif;
+	font-size:300%;
+	padding:10px 10px 10px 10px;
+}
+
+article2
+
+article a {
+	color: black;
+}
+
+/* Change the color article links on the hover using tab button */
+article a:hover {
+	color: black;
+	outline: none;
+}
+
+/* Change the color article links on the focus using tab button */
+article a:focus {
+	color: black;
+	outline: none;
+}
+
+
+#main_image {
+	width: 100%;
+}
+
+/*FOR TABLETS */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/*FOR DESKTOP */
+@media only screen and (min-width: 768px) {
+
+	div {
+		display: flex;
+	}
+
+	aside {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		float: left;
+		justify-content: center;
+		width: 30%;
+	}
+
+	aside a {
+		width: 100%;
+	}
+
+	section {
+		display: inline;
+		float: right;
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+

@@ -1,0 +1,40 @@
+
+/*Page 4*/
+
+
+/*MOBILE FIRST VIEW */
+* {
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+footer {
+	background: none;
+	padding: 32px;
+	text-align: center;
+	width: 100%;
+	font-size: x-large;
+}
+
+
+footer a {
+	color: orange;
+}
+
+footer a:hover {
+	background-color: black;
+	color: white;
+	outline: none;
+}
+
+footer a:focus {
+	background-color: black;
+	color: white;
+	outline: none;
+}
+
+footer a:focus {
+	background-color: black;
+	color: white;
+	outline: none;
+}
