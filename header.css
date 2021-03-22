@@ -14,25 +14,6 @@ header {
 }
 
 
-#hamburger_checkbox {
-	display: none;
-}
- 
-.hamburger_image {
-	background-color: white;
-	display: block;
-	margin-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px 10px 10px 10px;
-	width: 10%;
-}
-
-
-input[id="hamburger_checkbox"]:not(:checked) + nav {
-	display: none;
-}
-
 h1 {
 	display: flex;
     height: 120px;
@@ -75,26 +56,6 @@ a.active_nav {
 	color: white;
 }
 
-/*TABLET VIEW */
-@media only screen and (min-width: 600px) {
-
-}
-
-
-
-/*DESKTOP VIEW */
-@media only screen and (min-width: 768px) {
-
-
-.hamburger_image {
-	display: none;
-}
-
-
-
-input[id="hamburger_checkbox"]:not(:checked) + nav {
-	display:block
-}
 
 
 h1 {
@@ -108,13 +69,6 @@ nav {
 
 nav a {
 	width: auto;
-}
-}
-
-
-/*DESKTOP VIEW EXTRA LARGE*/
-@media only screen and (min-width: 1200px) {
-
 }
 
 
