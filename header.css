@@ -71,8 +71,12 @@ nav a {
 	width: auto;
 }
 
-/*TABLET VIEW */
-@media only screen and (max-width: 768px) {
-
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  #header_desktop{
+   display:none;
+  }
+  #header_mobile{
+   display:initial;
+  }
 }
-
