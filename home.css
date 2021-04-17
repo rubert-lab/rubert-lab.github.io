@@ -1,36 +1,25 @@
 /*MOBILE FIRST VIEW */
 
-
-
-
-body {
-background-color: white;
-
-
-}
-
 h2 {
 	display: none;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 aside {
-	background: none;
+	background: white;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 300%;
+	font-size: 120%;
 	padding: 5px 0px 5px 0px;
 	width: 100%;
 }
 
 
 aside a:link {
-	color: #C7EDE4;
+	color: black;
 	display: block;
 	padding: 5px 0px 5px 0px;
 	text-decoration: none;
@@ -56,30 +45,72 @@ aside a:focus {
 	outline: none;
 }
 
-
 article  {
-	background-color: #EBEBEB;
-	color: black;
-	font-family: 'Anton', sans-serif;
-	font-size:300%;
+	background-color: black;
+	color: #f2f2f2;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:120%;
 	padding:10px 10px 10px 10px;
 }
 
-article2
-
 article a {
-	color: black;
+	color: #f2f2f2;
 }
 
 /* Change the color article links on the hover using tab button */
 article a:hover {
+	background-color: white;
 	color: black;
 	outline: none;
 }
 
 /* Change the color article links on the focus using tab button */
 article a:focus {
+	background-color: white;
 	color: black;
 	outline: none;
 }
+
+
+#main_image {
+	width: 100%;
+}
+
+/*FOR TABLETS */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/*FOR DESKTOP */
+@media only screen and (min-width: 768px) {
+
+	div {
+		display: flex;
+	}
+
+	aside {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		float: left;
+		justify-content: center;
+		width: 30%;
+	}
+
+	aside a {
+		width: 100%;
+	}
+
+	section {
+		display: inline;
+		float: right;
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
 
