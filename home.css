@@ -77,13 +77,13 @@ article a:focus {
 }
 
 /*FOR TABLETS */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
 
 }
 
 
 /*FOR DESKTOP */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
 
 	div {
 		display: flex;
