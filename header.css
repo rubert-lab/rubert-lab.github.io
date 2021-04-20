@@ -72,14 +72,14 @@ a.active_nav {
 }
 
 /*TABLET VIEW */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
 
 }
 
 
 
 /*DESKTOP VIEW */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
 
 
 .hamburger_image {
